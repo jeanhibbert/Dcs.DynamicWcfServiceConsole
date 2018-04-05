@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DynamicWcfServiceGeneration.ServiceClassBuilder" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAABAAAAAAAACAAAAACAEEAIA=</HashCode>
+      <FileName>ServiceGeneration\ServiceClassBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DynamicWcfServiceGeneration.ServiceContractBuilder" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAACAAAAAABA=</HashCode>
+      <FileName>ServiceGeneration\ServiceContractBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DynamicWcfServiceGeneration.TxDetailsAttribute">
+    <Position X="11.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServiceGeneration\TxDetailsAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DynamicWcfServiceGeneration.TxServiceBase" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAEAEAAAAAAAAA=</HashCode>
+      <FileName>ServiceGeneration\TxServiceBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TxInvoker" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DynamicWcfServiceGeneration.tTransaction">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAACAAAAAAAAAAAAABAAAAAAMAAAAAEAAA=</HashCode>
+      <FileName>TX Model\tTransaction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Parameters" />
+      <Property Name="Bindings" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DynamicWcfServiceGeneration.TxParameter">
+    <Position X="1.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TX Model\TxParameter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DynamicWcfServiceGeneration.MockTxInvoker" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TxInvoking\MockTxInvoker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DynamicWcfServiceGeneration.TxServiceHost">
+    <Position X="1.25" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>TxServiceHost.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.ServiceModel.ServiceHost" Collapsed="true">
+    <Position X="1.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.ServiceModel.Channels.Binding">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="DynamicWcfServiceGeneration.IServiceClassBuilder">
+    <Position X="7" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>ServiceGeneration\IServiceClassBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DynamicWcfServiceGeneration.IServiceContractBuilder">
+    <Position X="7" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>ServiceGeneration\IServiceContractBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DynamicWcfServiceGeneration.ITxInvoker">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TxInvoking\ITxInvoker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
